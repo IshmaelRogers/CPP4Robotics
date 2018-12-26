@@ -39,4 +39,28 @@ Code Editor
 
 There are many choices on the type of environment that you develop in. You should consider the following options based on your needs.
 
-0. Text edito
+0. Text editors
+    i. GEDIT
+   ii. Sublime Text
+  iii. Notepad
+1. Integrated Development Environment (IDE)
+    i. Eclipse
+   ii. Visual Studio
+  iii. XCODE (MAC users)
+2. Command Line Code Editor
+    i. NANO
+   ii. VIM
+  iii. EMACS
+ 
+Creating a C++ File in Ubuntu 
+---
+
+0. Navigate to the Desktop using $ cd Desktop
+1. Open a new file using gedit $ getedit newfile.cpp
+2. Save, close and confirm that the file has been created with $ ls
+
+Creating the first program!: "Hello World"
+---
+NOTE: Please see "Hello_World.cpp" in the "Code" Folder in this repository.
+
+    
