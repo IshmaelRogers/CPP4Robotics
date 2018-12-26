@@ -20,4 +20,16 @@ C++ is great for digging deep into the lower level controls when designing a rob
 
 C++ vs Python
 ---
-Ty
+There are many differences in python and C++ (see figure below)
+
+Typing refers to how variables are initialized. In C++ each variable MUST be assigned a data type (int, bool, float, etc.). In Python the interperter automatically assigns the variable a data type based on its value. The value can be used anywhere in the code without prior declaration.  
+
+The entry point refers to the start of the program:
+
+C++: The main function
+Python: The start of the source code (i.e the first line)
+
+Indentation in C++ is optional and is usually done as a style preference to enhance the readability of the code. In python, it is mandatory that each line is properly indented. 
+
+![alt text][image1]
+
