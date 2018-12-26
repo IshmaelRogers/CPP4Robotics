@@ -33,3 +33,10 @@ Indentation in C++ is optional and is usually done as a style preference to enha
 
 ![alt text][image1]
 
+
+Code Editor 
+---
+
+There are many choices on the type of environment that you develop in. You should consider the following options based on your needs.
+
+0. Text edito
