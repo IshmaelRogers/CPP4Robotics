@@ -4,6 +4,8 @@
 # idrg.io
 # 2018 
 
+[image1]: ./images/cppvspy.png
+
 Introduction
 ---
 
