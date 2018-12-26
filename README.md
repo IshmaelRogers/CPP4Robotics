@@ -5,6 +5,7 @@
 # 2018 
 
 [image1]: ./images/cppvspy.PNG
+[image2]: ./images/relational_operators.png
 
 Introduction
 ---
@@ -63,4 +64,39 @@ Creating the first program!: "Hello World"
 ---
 NOTE: Please see "Hello_World.cpp" in the "Code" Folder in this repository.
 
-    
+Compile amd Execute
+---
+Using C++ in a Linux environment has 2 steps!
+
+0. Compiling
+1. Executing
+
+Compiler
+---
+NOTE: We will be using g++ in ubuntu 
+
+Steps 
+
+0. Compile: g++ newfile.cpp -o Executable_filename 
+
+NOTE: The -o flag tells the compiler that the file will be an output file
+
+1. Run the program: $ ./Executable_filename
+
+NOTE: Hello, World should be displayed in the terminal.
+
+Relational Operators
+--
+Now is a good time to discuss the syntax used by C++ to compare values stored in variables. Below is a table that show how to implement common comparisons between values.
+
+NOTE: The results of these operations should be in the form of TRUE or FALSE (1 or 0) 
+
+![alt text][image2]
+Functions and Data Structures
+---
+
+
+
+
+
+
