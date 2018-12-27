@@ -200,19 +200,56 @@ int Speed() //
 }
 }; // ; is necessary to close class definitions
 
-class Wheel: public Robot {};
+class Wheel: public Robot {}; // Public memeber functions are now public in the Wheel class as well 
 
 int main()
 
-Wheel wheel1:
+Wheel wheel1: //instantiate a wheel object
 
-Wheel *wheel1_pt = &wheel1; 
+Wheel *wheel1_pt = &wheel1; // The memory location of the wheel1 object is assigned the the Wheel1 pointer object. 
 
 cout << "Wheel Speed Accessed  by the object=" << wheel1.Speed()  << endl; // access the speed attribute using the "." operator 
-cout << "Wheel Speed Accessed  by the pointer=" << wheel1_pt->Speed() << endl; 
+cout << "Wheel Speed Accessed  by the pointer=" << wheel1_pt->Speed() << endl; // uses arrow selection operater
 cout << "Address of wheel 1 object=" << wheel1_pt << endl; 
 
 return 0;
 }
 ```
 
+Templates
+---
+
+Write functions and classes independent of data types
+
+```c++
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+template <class data_type>
+class Robot {
+    private:
+        data_type speed;
+    public:
+        Robot(data_type sp):speed(sp){/*speed=sp*/}
+
+          data_type GetSpeed()
+          {
+              return speed;
+          }
+};
+
+int main() 
+{
+   Robot <int> robot1(100);
+   Robot <float> robot2(50.5);
+   Robot <string> robot3("ten");
+
+   cout << "Robot1 speed : " << robot1.GetSpeed() <<endl;
+   cout << "Robot2 speed : " << robot2.GetSpeed() <<endl;
+   cout << "Robot2 speed : " << robot3.GetSpeed() <<endl;
+
+   return 0;
+}         
+
+```
