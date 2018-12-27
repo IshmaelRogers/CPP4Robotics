@@ -99,14 +99,14 @@ Functions and Data Structures
 Functions can be looked at simple machines that takes in an input, (manipulates it in some way) and then outputs a predictable value. 
 
 Function definitions follow a common structure:
-
+```c++
 returnType FunctionName(input1, input2, ..., inputn)
 {
 
 code that does something to the input
 
 }
-
+```
 Functions often simplify our code making it easier understand and even easier to compile. For example, if our goal is to build a program that finds the hypotenuse of right triangle, we could create a function that would handle the calculations for us whenever we "call" the function in main. 
 
 Please see the EvenNumbers.cpp file in the repository for a detailed example of how this works.
