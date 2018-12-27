@@ -155,23 +155,23 @@ Pretend that the person class has been created for a particular program. This cl
 Let's move into a more detailed example featuring real C++ code:
 
 ``` c++
-#include <iostream>
-using namespace std;
+#include <iostream> // gives the program the ability to have inputs and outputs
+using namespace std; // uses the standard namespace
 
-class Robot 
+class Robot // Create a class called Robo
 {
-public:
-int Speed()
-{return 10;
+public:    // declare accessibility of atribute can be private, protected or public
+int Speed() // 
+{return 10
 }
-};
+}; // ; is necessary to close class definitions 
 
 int main()
 
 {
 
 Robot robot1:
-cout << "Speed = " << robot1.Speed() << endl;
+cout << "Speed = " << robot1.Speed() << endl; // access the speed attribute using the "." operator 
 
 return 0;
 }
