@@ -93,12 +93,13 @@ NOTE: The results of these operations should be in the form of TRUE or FALSE (1 
 
 ![alt text][image2]
 
-Functions and Data Structures
+Functions 
 ---
 
 Functions can be looked at simple machines that takes in an input, (manipulates it in some way) and then outputs a predictable value. 
 
 Function definitions follow a common structure:
+
 ```c++
 returnType FunctionName(input1, input2, ..., inputn)
 {
@@ -107,11 +108,74 @@ code that does something to the input
 
 }
 ```
+
+Data Structure
+---
+Data can be represented in the following ways:
+
+0. Float
+1. integer
+2. Char
+3. Bool 
+4. String 
+
+Conditional statements
+---
+0. If 
+1. If Else
+
+
+Loops
+---
+
+0. While 
+1. For 
+2. Do-While 
+
 Functions often simplify our code making it easier understand and even easier to compile. For example, if our goal is to build a program that finds the hypotenuse of right triangle, we could create a function that would handle the calculations for us whenever we "call" the function in main. 
 
 Please see the EvenNumbers.cpp file in the repository for a detailed example of how this works.
 
+Classes 
+---
 
+Classes - Offer abstraction, structure and function of object
+Objects - Reduce the complexity of the code by allowing you to represent real world things inside of a program.  
+
+Example: 
+
+Class:  person
+
+Pretend that the person class has been created for a particular program. This class can hold 3 different types of information for each person created in the program:
+
+0. Name 
+1. Age
+2. Birthdate
+
+Let's move into a more detailed example featuring real C++ code:
+
+``` c++
+#include <iostream>
+using namespace std;
+
+class Robot 
+{
+public:
+int Speed()
+{return 10;
+}
+};
+
+int main()
+
+{
+
+Robot robot1:
+cout << "Speed = " << robot1.Speed() << endl;
+
+return 0;
+}
+```
 
 
 
