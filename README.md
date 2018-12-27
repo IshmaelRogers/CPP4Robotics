@@ -177,7 +177,42 @@ return 0;
 }
 ```
 
+Inheritance 
+---
+
+Continuing from the example above, we will create a wheel class that inherits properties from the base class (Robot) but with it's own member functions and attributes
+
+Pointers
+---
+
+Pointers are useful for many reason. 
 
 
+``` c++
+#include <iostream> // gives the program the ability to have inputs and outputs
+using namespace std; // uses the standard namespace
 
+class Robot // Create a class called Robo
+{
+public:    // declare accessibility of atribute can be private, protected or public
+int Speed() // 
+{return 10
+}
+}; // ; is necessary to close class definitions
+
+class Wheel: public Robot {};
+
+int main()
+
+Wheel wheel1:
+
+Wheel *wheel1_pt = &wheel1; 
+
+cout << "Wheel Speed Accessed  by the object=" << wheel1.Speed()  << endl; // access the speed attribute using the "." operator 
+cout << "Wheel Speed Accessed  by the pointer=" << wheel1_pt->Speed() << endl; 
+cout << "Address of wheel 1 object=" << wheel1_pt << endl; 
+
+return 0;
+}
+```
 
